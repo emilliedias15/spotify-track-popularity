@@ -20,7 +20,6 @@ The dataset was sourced from [Kaggle - Spotify Dataset](https://www.kaggle.com/d
 - **Training and comparing classification models:** Logistic Regression and Random Forest
 - **Cross-validation with StratifiedKFold**
 - **Evaluation using F1-Score**
-- **Feature importance visualization**
 
 ### Key Results
 
@@ -30,3 +29,37 @@ The dataset was sourced from [Kaggle - Spotify Dataset](https://www.kaggle.com/d
 ### Tools & Technologies
 
 Python (Pandas, Scikit-learn, Matplotlib, Seaborn), Jupyter Notebook, Git/GitHub
+
+---------------------------
+
+## 🎵 Previsão de Popularidade de Músicas no Spotify 🎵
+
+Utilização de Machine Learning para prever a popularidade de músicas baseada em variáveis disponibilizadas pelo app Spotify
+
+### Objetivo
+Este projeto tem como objetivo prever se uma música será popular com base em metadados e atributos sonoros fornecidos pelo Spotify por meio de um dataset disponível no Kaggle. A variável de popularidade foi transformada em uma variável binária para aplicação de modelos de classificação.
+
+### Dataset
+O dataset foi obtido do Kaggle - Spotify Dataset e inclui informações sobre milhares de faixas, como:
+
+- Nome da música, artista, álbum e gênero
+- Escore de popularidade (de 0 a 100)
+- Atributos de áudio como: dançabilidade, energia, tempo (BPM), instrumentalidade, acústica, entre outros
+
+### Técnicas Aplicadas
+
+- Análise Exploratória de Dados (EDA)
+- Binarização da variável alvo (popularity)
+- Treinamento e comparação de modelos de classificação: Regressão Logística e Random Forest
+- Validação cruzada com StratifiedKFold
+- Avaliação utilizando F1-Score
+
+### Principais Resultados
+
+- O modelo Random Forest apresentou o melhor desempenho, com F1-Score ≈ 0.49
+- A variável mais relevante foi instrumentalness, sugerindo que a presença ou ausência de vocais influencia fortemente a popularidade de uma música
+
+### Tecnologias Utilizadas
+
+Python (Pandas, Scikit-learn, Matplotlib, Seaborn), Jupyter Notebook, Git/GitHub
+
