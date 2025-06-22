@@ -43,7 +43,7 @@ Este projeto tem como objetivo prever se uma música será popular com base em m
 O dataset foi obtido do Kaggle - Spotify Dataset e inclui informações sobre milhares de faixas, como:
 
 - Nome da música, artista, álbum e gênero
-- Escore de popularidade (de 0 a 100)
+- Score de popularidade (de 0 a 100)
 - Atributos de áudio como: dançabilidade, energia, tempo (BPM), instrumentalidade, acústica, entre outros
 
 ### Técnicas Aplicadas
