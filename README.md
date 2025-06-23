@@ -23,8 +23,9 @@ The dataset was sourced from [Kaggle - Spotify Dataset](https://www.kaggle.com/d
 
 ### Key Results
 
-- The **Random Forest** model outperformed others with an **F1-Score ≈ 0.49**
+- The **Random Forest** model outperformed others with an **F1-Score ≈ 0.26**
 - The most important feature was `instrumentalness`, suggesting that the presence or absence of vocals strongly influences a song’s popularity
+- Musical production features influence a track's hit potential more than just genre or artist alone
 
 ### Tools & Technologies
 
@@ -56,8 +57,9 @@ O dataset foi obtido do Kaggle - Spotify Dataset e inclui informações sobre mi
 
 ### Principais Resultados
 
-- O modelo Random Forest apresentou o melhor desempenho, com F1-Score ≈ 0.49
+- O modelo Random Forest apresentou o melhor desempenho, com F1-Score ≈ 0.26
 - A variável mais relevante foi instrumentalness, sugerindo que a presença ou ausência de vocais influencia fortemente a popularidade de uma música
+- Características de produção musical influenciam mais o potencial de uma faixa se tornar hit do que apenas o gênero ou artista.
 
 ### Tecnologias Utilizadas
 
